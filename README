@@ -1,0 +1,18 @@
+rdg::cinder::subdivide
+
+Take a Rectangular Polygon.
+Choose a random point on one of the sides.
+Choose a random point on the opposite side.
+Split the polygon using a plane through these two points.
+Repeat.
+
+This Procedural Plagiarism was inspired by Justin Windle’s “Recursive Subdivision“ [1].
+
+
+-- ---
+These components are provided "as is". 
+We don't mail missing files.
+2011 Wellington, NZ
+
+-- ---
+[1] http://blog.soulwire.co.uk/laboratory/flash/recursive-polygon-subdivision
