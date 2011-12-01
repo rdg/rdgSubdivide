@@ -6,6 +6,15 @@ Choose a random point on the opposite side.
 Split the polygon using a plane through these two points.
 Repeat.
 
+-- ---
+Press LMB to add an initial polygon.
+Furtherur clicks will subdivide.
+
+r/R		Start and stop the auto subdivision.
+k/K		Zoom out.
+l/L		Zoom in.
+
+-- ---
 This Procedural Plagiarism was inspired by Justin Windle’s “Recursive Subdivision“ [1].
 
 
