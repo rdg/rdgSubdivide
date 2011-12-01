@@ -6,6 +6,8 @@ Choose a random point on the opposite side.
 Split the polygon using a plane through these two points.
 Repeat.
 
+Example: http://vimeo.com/32960502
+
 -- ---
 Press LMB to add an initial polygon.
 Furtherur clicks will subdivide.
