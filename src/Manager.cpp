@@ -40,13 +40,13 @@ void Manager::trigger()
 	for( list<Element>::iterator it = elements.begin(); it != elements.end(); ) {
 		if ( Rand::randFloat() < 0.1)
 		{
-			if( it->calcArea() > 1.5f )
+			if( it->calcArea() > 3.5f )
 			{
 				newcorners = it->split();
 				splits.push_back( Element( newcorners[0], newcorners[1], newcorners[2], newcorners[3] ) );
 				++it;
 			}else{
-				if ( Rand::randFloat() < 0.1)
+				if ( Rand::randFloat() < 0.2)
 				{
 					it = elements.erase( it );
 				}else{
